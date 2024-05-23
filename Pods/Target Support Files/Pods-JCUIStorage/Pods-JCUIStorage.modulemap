@@ -1,0 +1,6 @@
+framework module Pods_JCUIStorage {
+  umbrella header "Pods-JCUIStorage-umbrella.h"
+
+  export *
+  module * { export * }
+}

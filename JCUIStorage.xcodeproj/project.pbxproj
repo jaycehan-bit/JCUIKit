@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		148DD4FE985134F7ED02AFF1 /* Pods_JCUIStorage_JCUIStorageUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 904BA441D18385014752265C /* Pods_JCUIStorage_JCUIStorageUITests.framework */; };
+		4D08AEB26048B4D2105B6CD9 /* Pods_JCUIStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6C8892117FB88F637E58A4 /* Pods_JCUIStorage.framework */; };
+		4E049DEA2BFF8F4900F6BC89 /* JCHorizontalSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E049DE92BFF8F4900F6BC89 /* JCHorizontalSectionController.swift */; };
+		4E049DEC2BFF8F5D00F6BC89 /* JCVerticalSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E049DEB2BFF8F5D00F6BC89 /* JCVerticalSectionController.swift */; };
+		4E049DEF2BFF928200F6BC89 /* JCVerticalCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E049DEE2BFF928200F6BC89 /* JCVerticalCellViewModel.swift */; };
+		4E049DF12BFF92B000F6BC89 /* JCHorizontalCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E049DF02BFF92B000F6BC89 /* JCHorizontalCellViewModel.swift */; };
+		4E049DF32BFF92D500F6BC89 /* JCListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E049DF22BFF92D500F6BC89 /* JCListCellViewModel.swift */; };
+		4E2B36312BFB653B00CD0F47 /* JCListSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2B36302BFB653B00CD0F47 /* JCListSectionController.swift */; };
+		4E2B36342BFB674E00CD0F47 /* JCListImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2B36332BFB674E00CD0F47 /* JCListImageCollectionViewCell.swift */; };
+		4E2B36362BFB6B8F00CD0F47 /* JCHorizontalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2B36352BFB6B8F00CD0F47 /* JCHorizontalCollectionViewCell.swift */; };
+		4E2B36382BFB9FBB00CD0F47 /* JCVerticalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2B36372BFB9FBB00CD0F47 /* JCVerticalCollectionViewCell.swift */; };
 		4E2BF94A2BFAEFC500CD0F47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2BF9492BFAEFC500CD0F47 /* AppDelegate.swift */; };
 		4E2BF94C2BFAEFC500CD0F47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2BF94B2BFAEFC500CD0F47 /* SceneDelegate.swift */; };
-		4E2BF94E2BFAEFC500CD0F47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2BF94D2BFAEFC500CD0F47 /* ViewController.swift */; };
 		4E2BF9512BFAEFC500CD0F47 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4E2BF9502BFAEFC500CD0F47 /* Base */; };
 		4E2BF9532BFAEFC600CD0F47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E2BF9522BFAEFC600CD0F47 /* Assets.xcassets */; };
 		4E2BF9562BFAEFC600CD0F47 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4E2BF9552BFAEFC600CD0F47 /* Base */; };
 		4E2BF9612BFAEFC600CD0F47 /* JCUIStorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2BF9602BFAEFC600CD0F47 /* JCUIStorageTests.swift */; };
 		4E2BF96B2BFAEFC600CD0F47 /* JCUIStorageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2BF96A2BFAEFC600CD0F47 /* JCUIStorageUITests.swift */; };
 		4E2BF96D2BFAEFC600CD0F47 /* JCUIStorageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2BF96C2BFAEFC600CD0F47 /* JCUIStorageUITestsLaunchTests.swift */; };
+		4E2BF97B2BFAF1E100CD0F47 /* JCBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2BF97A2BFAF1E100CD0F47 /* JCBaseViewController.swift */; };
+		4E2BF97F2BFAF2F400CD0F47 /* JCHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2BF97E2BFAF2F400CD0F47 /* JCHomeViewController.swift */; };
+		4E2BF9822BFAF57C00CD0F47 /* StorageUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2BF9812BFAF57C00CD0F47 /* StorageUtils.swift */; };
+		4E2BF9862BFAFAD400CD0F47 /* JCIGListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2BF9852BFAFAD400CD0F47 /* JCIGListViewController.swift */; };
+		4E7B3D2D2BFDE06400EE6C81 /* JCIGListConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7B3D2C2BFDE06400EE6C81 /* JCIGListConfig.swift */; };
+		55790C382AEE5FD05E574327 /* Pods_JCUIStorageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A3CB9447C5E130949CE778 /* Pods_JCUIStorageTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +52,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08A3CB9447C5E130949CE778 /* Pods_JCUIStorageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JCUIStorageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6C8892117FB88F637E58A4 /* Pods_JCUIStorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JCUIStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E049DE92BFF8F4900F6BC89 /* JCHorizontalSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCHorizontalSectionController.swift; sourceTree = "<group>"; };
+		4E049DEB2BFF8F5D00F6BC89 /* JCVerticalSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCVerticalSectionController.swift; sourceTree = "<group>"; };
+		4E049DEE2BFF928200F6BC89 /* JCVerticalCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCVerticalCellViewModel.swift; sourceTree = "<group>"; };
+		4E049DF02BFF92B000F6BC89 /* JCHorizontalCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCHorizontalCellViewModel.swift; sourceTree = "<group>"; };
+		4E049DF22BFF92D500F6BC89 /* JCListCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCListCellViewModel.swift; sourceTree = "<group>"; };
+		4E2B36302BFB653B00CD0F47 /* JCListSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCListSectionController.swift; sourceTree = "<group>"; };
+		4E2B36332BFB674E00CD0F47 /* JCListImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCListImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		4E2B36352BFB6B8F00CD0F47 /* JCHorizontalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCHorizontalCollectionViewCell.swift; sourceTree = "<group>"; };
+		4E2B36372BFB9FBB00CD0F47 /* JCVerticalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCVerticalCollectionViewCell.swift; sourceTree = "<group>"; };
 		4E2BF9462BFAEFC500CD0F47 /* JCUIStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCUIStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E2BF9492BFAEFC500CD0F47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E2BF94B2BFAEFC500CD0F47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4E2BF94D2BFAEFC500CD0F47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4E2BF9502BFAEFC500CD0F47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E2BF9522BFAEFC600CD0F47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E2BF9552BFAEFC600CD0F47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +75,18 @@
 		4E2BF9662BFAEFC600CD0F47 /* JCUIStorageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCUIStorageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E2BF96A2BFAEFC600CD0F47 /* JCUIStorageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCUIStorageUITests.swift; sourceTree = "<group>"; };
 		4E2BF96C2BFAEFC600CD0F47 /* JCUIStorageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCUIStorageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4E2BF97A2BFAF1E100CD0F47 /* JCBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCBaseViewController.swift; sourceTree = "<group>"; };
+		4E2BF97E2BFAF2F400CD0F47 /* JCHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCHomeViewController.swift; sourceTree = "<group>"; };
+		4E2BF9812BFAF57C00CD0F47 /* StorageUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageUtils.swift; sourceTree = "<group>"; };
+		4E2BF9852BFAFAD400CD0F47 /* JCIGListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCIGListViewController.swift; sourceTree = "<group>"; };
+		4E7B3D2C2BFDE06400EE6C81 /* JCIGListConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCIGListConfig.swift; sourceTree = "<group>"; };
+		75BA7AF1EBD8E5AE096BF444 /* Pods-JCUIStorage-JCUIStorageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCUIStorage-JCUIStorageUITests.release.xcconfig"; path = "Target Support Files/Pods-JCUIStorage-JCUIStorageUITests/Pods-JCUIStorage-JCUIStorageUITests.release.xcconfig"; sourceTree = "<group>"; };
+		904BA441D18385014752265C /* Pods_JCUIStorage_JCUIStorageUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JCUIStorage_JCUIStorageUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B34DB7A08CEC0FD4F366C60B /* Pods-JCUIStorage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCUIStorage.debug.xcconfig"; path = "Target Support Files/Pods-JCUIStorage/Pods-JCUIStorage.debug.xcconfig"; sourceTree = "<group>"; };
+		C8E46C1D8346F298EE9EE273 /* Pods-JCUIStorageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCUIStorageTests.debug.xcconfig"; path = "Target Support Files/Pods-JCUIStorageTests/Pods-JCUIStorageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB4C6084A15313E5838DDD05 /* Pods-JCUIStorage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCUIStorage.release.xcconfig"; path = "Target Support Files/Pods-JCUIStorage/Pods-JCUIStorage.release.xcconfig"; sourceTree = "<group>"; };
+		E52BA541E0A147D273C11AC1 /* Pods-JCUIStorageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCUIStorageTests.release.xcconfig"; path = "Target Support Files/Pods-JCUIStorageTests/Pods-JCUIStorageTests.release.xcconfig"; sourceTree = "<group>"; };
+		FF61180E418D3D49D175742A /* Pods-JCUIStorage-JCUIStorageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCUIStorage-JCUIStorageUITests.debug.xcconfig"; path = "Target Support Files/Pods-JCUIStorage-JCUIStorageUITests/Pods-JCUIStorage-JCUIStorageUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D08AEB26048B4D2105B6CD9 /* Pods_JCUIStorage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55790C382AEE5FD05E574327 /* Pods_JCUIStorageTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +110,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				148DD4FE985134F7ED02AFF1 /* Pods_JCUIStorage_JCUIStorageUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C1CF555AC0DC129DEBBF15A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B34DB7A08CEC0FD4F366C60B /* Pods-JCUIStorage.debug.xcconfig */,
+				DB4C6084A15313E5838DDD05 /* Pods-JCUIStorage.release.xcconfig */,
+				FF61180E418D3D49D175742A /* Pods-JCUIStorage-JCUIStorageUITests.debug.xcconfig */,
+				75BA7AF1EBD8E5AE096BF444 /* Pods-JCUIStorage-JCUIStorageUITests.release.xcconfig */,
+				C8E46C1D8346F298EE9EE273 /* Pods-JCUIStorageTests.debug.xcconfig */,
+				E52BA541E0A147D273C11AC1 /* Pods-JCUIStorageTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4E049DED2BFF926300F6BC89 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4E049DEE2BFF928200F6BC89 /* JCVerticalCellViewModel.swift */,
+				4E049DF02BFF92B000F6BC89 /* JCHorizontalCellViewModel.swift */,
+				4E049DF22BFF92D500F6BC89 /* JCListCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4E2B36322BFB670100CD0F47 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4E2B36332BFB674E00CD0F47 /* JCListImageCollectionViewCell.swift */,
+				4E2B36352BFB6B8F00CD0F47 /* JCHorizontalCollectionViewCell.swift */,
+				4E2B36372BFB9FBB00CD0F47 /* JCVerticalCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		4E2BF93D2BFAEFC500CD0F47 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +157,8 @@
 				4E2BF95F2BFAEFC600CD0F47 /* JCUIStorageTests */,
 				4E2BF9692BFAEFC600CD0F47 /* JCUIStorageUITests */,
 				4E2BF9472BFAEFC500CD0F47 /* Products */,
+				2C1CF555AC0DC129DEBBF15A /* Pods */,
+				94C711620EB5652F6CAE9635 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +175,12 @@
 		4E2BF9482BFAEFC500CD0F47 /* JCUIStorage */ = {
 			isa = PBXGroup;
 			children = (
+				4E2BF9832BFAFAB100CD0F47 /* Module */,
+				4E2BF9802BFAF54E00CD0F47 /* StorageUtils */,
+				4E2BF97C2BFAF2B700CD0F47 /* HomeController */,
+				4E2BF9792BFAF1C800CD0F47 /* BaseKit */,
 				4E2BF9492BFAEFC500CD0F47 /* AppDelegate.swift */,
 				4E2BF94B2BFAEFC500CD0F47 /* SceneDelegate.swift */,
-				4E2BF94D2BFAEFC500CD0F47 /* ViewController.swift */,
 				4E2BF94F2BFAEFC500CD0F47 /* Main.storyboard */,
 				4E2BF9522BFAEFC600CD0F47 /* Assets.xcassets */,
 				4E2BF9542BFAEFC600CD0F47 /* LaunchScreen.storyboard */,
@@ -127,6 +206,78 @@
 			path = JCUIStorageUITests;
 			sourceTree = "<group>";
 		};
+		4E2BF9792BFAF1C800CD0F47 /* BaseKit */ = {
+			isa = PBXGroup;
+			children = (
+				4E2BF97A2BFAF1E100CD0F47 /* JCBaseViewController.swift */,
+			);
+			path = BaseKit;
+			sourceTree = "<group>";
+		};
+		4E2BF97C2BFAF2B700CD0F47 /* HomeController */ = {
+			isa = PBXGroup;
+			children = (
+				4E2BF97E2BFAF2F400CD0F47 /* JCHomeViewController.swift */,
+			);
+			path = HomeController;
+			sourceTree = "<group>";
+		};
+		4E2BF9802BFAF54E00CD0F47 /* StorageUtils */ = {
+			isa = PBXGroup;
+			children = (
+				4E2BF9812BFAF57C00CD0F47 /* StorageUtils.swift */,
+			);
+			path = StorageUtils;
+			sourceTree = "<group>";
+		};
+		4E2BF9832BFAFAB100CD0F47 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				4E2BF9842BFAFAB800CD0F47 /* IGListKit */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		4E2BF9842BFAFAB800CD0F47 /* IGListKit */ = {
+			isa = PBXGroup;
+			children = (
+				4E049DED2BFF926300F6BC89 /* ViewModel */,
+				4E7B3D2B2BFDE04B00EE6C81 /* Config */,
+				4E7B3D2A2BFDDFCC00EE6C81 /* SectionController */,
+				4E2B36322BFB670100CD0F47 /* View */,
+				4E2BF9852BFAFAD400CD0F47 /* JCIGListViewController.swift */,
+			);
+			path = IGListKit;
+			sourceTree = "<group>";
+		};
+		4E7B3D2A2BFDDFCC00EE6C81 /* SectionController */ = {
+			isa = PBXGroup;
+			children = (
+				4E2B36302BFB653B00CD0F47 /* JCListSectionController.swift */,
+				4E049DE92BFF8F4900F6BC89 /* JCHorizontalSectionController.swift */,
+				4E049DEB2BFF8F5D00F6BC89 /* JCVerticalSectionController.swift */,
+			);
+			path = SectionController;
+			sourceTree = "<group>";
+		};
+		4E7B3D2B2BFDE04B00EE6C81 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				4E7B3D2C2BFDE06400EE6C81 /* JCIGListConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		94C711620EB5652F6CAE9635 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F6C8892117FB88F637E58A4 /* Pods_JCUIStorage.framework */,
+				904BA441D18385014752265C /* Pods_JCUIStorage_JCUIStorageUITests.framework */,
+				08A3CB9447C5E130949CE778 /* Pods_JCUIStorageTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +285,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E2BF9702BFAEFC600CD0F47 /* Build configuration list for PBXNativeTarget "JCUIStorage" */;
 			buildPhases = (
+				CA9860E7EC105973FB882DE8 /* [CP] Check Pods Manifest.lock */,
 				4E2BF9422BFAEFC500CD0F47 /* Sources */,
 				4E2BF9432BFAEFC500CD0F47 /* Frameworks */,
 				4E2BF9442BFAEFC500CD0F47 /* Resources */,
+				DE014B3CF8C2EF48F11FF89D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +304,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E2BF9732BFAEFC600CD0F47 /* Build configuration list for PBXNativeTarget "JCUIStorageTests" */;
 			buildPhases = (
+				33C43F0D42FD2B8825BD7233 /* [CP] Check Pods Manifest.lock */,
 				4E2BF9582BFAEFC600CD0F47 /* Sources */,
 				4E2BF9592BFAEFC600CD0F47 /* Frameworks */,
 				4E2BF95A2BFAEFC600CD0F47 /* Resources */,
@@ -169,9 +323,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E2BF9762BFAEFC600CD0F47 /* Build configuration list for PBXNativeTarget "JCUIStorageUITests" */;
 			buildPhases = (
+				D75D2EFEDC62A9111D7AD6D2 /* [CP] Check Pods Manifest.lock */,
 				4E2BF9622BFAEFC600CD0F47 /* Sources */,
 				4E2BF9632BFAEFC600CD0F47 /* Frameworks */,
 				4E2BF9642BFAEFC600CD0F47 /* Resources */,
+				D233979C024AA3DB53E5DFC9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,13 +409,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33C43F0D42FD2B8825BD7233 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JCUIStorageTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA9860E7EC105973FB882DE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JCUIStorage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D233979C024AA3DB53E5DFC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JCUIStorage-JCUIStorageUITests/Pods-JCUIStorage-JCUIStorageUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JCUIStorage-JCUIStorageUITests/Pods-JCUIStorage-JCUIStorageUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JCUIStorage-JCUIStorageUITests/Pods-JCUIStorage-JCUIStorageUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D75D2EFEDC62A9111D7AD6D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JCUIStorage-JCUIStorageUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE014B3CF8C2EF48F11FF89D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JCUIStorage/Pods-JCUIStorage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JCUIStorage/Pods-JCUIStorage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JCUIStorage/Pods-JCUIStorage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4E2BF9422BFAEFC500CD0F47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E2BF94E2BFAEFC500CD0F47 /* ViewController.swift in Sources */,
+				4E049DF12BFF92B000F6BC89 /* JCHorizontalCellViewModel.swift in Sources */,
+				4E2B36312BFB653B00CD0F47 /* JCListSectionController.swift in Sources */,
+				4E2B36382BFB9FBB00CD0F47 /* JCVerticalCollectionViewCell.swift in Sources */,
+				4E049DEA2BFF8F4900F6BC89 /* JCHorizontalSectionController.swift in Sources */,
+				4E2B36342BFB674E00CD0F47 /* JCListImageCollectionViewCell.swift in Sources */,
+				4E2B36362BFB6B8F00CD0F47 /* JCHorizontalCollectionViewCell.swift in Sources */,
+				4E049DEF2BFF928200F6BC89 /* JCVerticalCellViewModel.swift in Sources */,
+				4E2BF97B2BFAF1E100CD0F47 /* JCBaseViewController.swift in Sources */,
+				4E049DEC2BFF8F5D00F6BC89 /* JCVerticalSectionController.swift in Sources */,
+				4E049DF32BFF92D500F6BC89 /* JCListCellViewModel.swift in Sources */,
+				4E7B3D2D2BFDE06400EE6C81 /* JCIGListConfig.swift in Sources */,
+				4E2BF97F2BFAF2F400CD0F47 /* JCHomeViewController.swift in Sources */,
 				4E2BF94A2BFAEFC500CD0F47 /* AppDelegate.swift in Sources */,
+				4E2BF9862BFAFAD400CD0F47 /* JCIGListViewController.swift in Sources */,
+				4E2BF9822BFAF57C00CD0F47 /* StorageUtils.swift in Sources */,
 				4E2BF94C2BFAEFC500CD0F47 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,12 +709,14 @@
 		};
 		4E2BF9712BFAEFC600CD0F47 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B34DB7A08CEC0FD4F366C60B /* Pods-JCUIStorage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P2VK525HWZ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JCUIStorage/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -450,6 +724,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,12 +740,14 @@
 		};
 		4E2BF9722BFAEFC600CD0F47 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB4C6084A15313E5838DDD05 /* Pods-JCUIStorage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P2VK525HWZ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JCUIStorage/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -478,6 +755,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -493,6 +771,7 @@
 		};
 		4E2BF9742BFAEFC600CD0F47 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8E46C1D8346F298EE9EE273 /* Pods-JCUIStorageTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +792,7 @@
 		};
 		4E2BF9752BFAEFC600CD0F47 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E52BA541E0A147D273C11AC1 /* Pods-JCUIStorageTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +813,7 @@
 		};
 		4E2BF9772BFAEFC600CD0F47 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF61180E418D3D49D175742A /* Pods-JCUIStorage-JCUIStorageUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +832,7 @@
 		};
 		4E2BF9782BFAEFC600CD0F47 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75BA7AF1EBD8E5AE096BF444 /* Pods-JCUIStorage-JCUIStorageUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
