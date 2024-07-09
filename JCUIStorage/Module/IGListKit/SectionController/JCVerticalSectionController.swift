@@ -8,8 +8,25 @@
 import UIKit
 import IGListKit
 
-class JCVerticalSectionController: ListSectionController {
+final class JCVerticalSectionController: ListSectionController {
+    
+    private var object: JCVerticalCellViewModel?
+
+    override func cellForItem(at index: Int) -> UICollectionViewCell {
+        let cell: JCVerticalCollectionViewCell = collectionContext!.dequeueReusableCell(of: JCVerticalCollectionViewCell.self, for: self, at: index) as! JCVerticalCollectionViewCell
+        cell.bindViewModel(viewModel: object!)
+        return cell
+    }
+    
     override func sizeForItem(at index: Int) -> CGSize {
-        return CGSize.zero
+        guard collectionContext != nil else {
+            return .zero
+        }
+        let containerSize: CGSize = collectionContext!.containerSize
+        return CGSize.init(width: containerSize.width, height: JCIGListUtils.verticalHeight)
+    }
+    
+    override func didUpdate(to object: Any) {
+        self.object = object as? JCVerticalCellViewModel
     }
 }

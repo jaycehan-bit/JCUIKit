@@ -19,7 +19,7 @@ struct ViewControllerList {
 struct JCHomeControllerConfig {
     static let cellIdentifier = "JCHomeCellIdentifier"
     static let cellHeight: CGFloat = 60
-    static let JCHomeContrllerList: NSArray = []
+    static let JCHomeContrllerList: NSArray = ["JCUIStorage.JCIGListViewController"]
 }
 
 

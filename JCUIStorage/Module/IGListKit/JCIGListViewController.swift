@@ -26,26 +26,38 @@ class JCIGListViewController: JCBaseViewController {
         return adapter
     }()
     
+    lazy var dataList: [any ListDiffable] = {
+        let imageName: String = JCIGListUtils.imageList[0]
+        let title: String = JCIGListUtils.titleList[0]
+        let subtitle: String = JCIGListUtils.subtitleList[0]
+        let imageViewModel = JCListCellViewModel(imageName: imageName)
+        let verticalViewModel = JCVerticalCellViewModel(imageName: imageName, title: title, subtitle: subtitle)
+        let horizontalViewModel = JCHorizontalCellViewModel(imageName: imageName, title: title, subtitle: subtitle)
+        var dataList = NSMutableArray()
+        dataList.addObjects(from: [imageViewModel, verticalViewModel, horizontalViewModel])
+        return dataList.copy() as! [any ListDiffable]
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(collectionView)
         adapter.collectionView = collectionView
-        adapter.viewController = self
+        adapter.reloadData()
     }
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
+        collectionView.collectionViewLayout.invalidateLayout()
         collectionView.frame = view.bounds
     }
-
 }
 
 extension JCIGListViewController: ListAdapterDataSource {
     func listAdapter(_ listAdapter: ListAdapter, sectionControllerFor object: Any) -> ListSectionController {
         if object is JCVerticalCellViewModel {
-          return JCListSectionController()
+            return JCVerticalSectionController()
         } else if object is JCHorizontalCellViewModel {
-          return JCHorizontalSectionController()
+            return JCHorizontalSectionController()
         } else {
             return JCListSectionController()
         }
@@ -56,7 +68,7 @@ extension JCIGListViewController: ListAdapterDataSource {
     }
     
     func objects(for listAdapter: ListAdapter) -> [any ListDiffable] {
-        return []
+        return dataList
     }
 
 }

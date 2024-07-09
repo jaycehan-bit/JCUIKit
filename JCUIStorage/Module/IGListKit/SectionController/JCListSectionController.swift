@@ -8,13 +8,27 @@
 import UIKit
 import IGListKit
 
-class JCListSectionController: ListSectionController {
+
+final class JCListSectionController: ListSectionController {
+    
+    var object: JCListCellViewModel?
+    
+    override init() {
+        super.init()
+    }
     
     override func cellForItem(at index: Int) -> UICollectionViewCell {
-        return collectionContext!.dequeueReusableCell(of: UICollectionViewCell.self, for: self, at: index)
+        let cell: JCListImageCollectionViewCell = collectionContext!.dequeueReusableCell(of: JCListImageCollectionViewCell.self, for: self, at: index) as! JCListImageCollectionViewCell
+        cell.bindViewModel(viewModel: object)
+        return cell
     }
     
     override func sizeForItem(at index: Int) -> CGSize {
-        return CGSize.zero
+        let size: CGSize = CGSize(width: Double((collectionContext?.containerSize.width)!), height: JCIGListUtils.imageHeight)
+        return size
+    }
+    
+    override func didUpdate(to object: Any) {
+        self.object = object as? JCListCellViewModel
     }
 }

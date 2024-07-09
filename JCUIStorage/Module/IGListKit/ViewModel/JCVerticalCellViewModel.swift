@@ -40,7 +40,7 @@ extension JCVerticalCellViewModel: ListDiffable {
             return false
         }
         
-        if object.subtitle != self.title {
+        if object.subtitle != self.subtitle {
             return false
         }
         

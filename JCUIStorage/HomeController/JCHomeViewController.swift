@@ -16,11 +16,14 @@ class JCHomeViewController: JCBaseViewController {
         tableView.backgroundColor = UIColor.clear
         tableView.delegate = self
         tableView.dataSource = self
+        tableView.tableHeaderView = UIView.init(frame: CGRect.zero)
+        tableView.tableFooterView = UIView.init(frame: CGRect.zero)
         return tableView
     }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = UIColor.black
         view.addSubview(tableView)
     }
     
@@ -50,11 +53,15 @@ extension JCHomeViewController: UITableViewDelegate {
 
 extension JCHomeViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return ViewControllerList.JCHomeContrllerList.count
+        return JCHomeControllerConfig.JCHomeContrllerList.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        var config = UIListContentConfiguration.cell()
+        config.text = JCHomeControllerConfig.JCHomeContrllerList[indexPath.row] as? String
+        config.textProperties.color = UIColor.white
         let cell = tableView.dequeueReusableCell(withIdentifier: JCHomeControllerConfig.cellIdentifier, for: indexPath)
+        cell.contentConfiguration = config
         cell.backgroundColor = UIColor.clear
         return cell
     }
